@@ -5,6 +5,11 @@ let color = 'blue'
 
 $: name  = Firstname + ' ' + Secondname
 
+const  toggle = () => {
+	color = color === 'blue' ? 'red' : 'blue'
+
+}
+
 </script>
 
 <main>
