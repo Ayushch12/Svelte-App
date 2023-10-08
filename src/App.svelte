@@ -1,10 +1,16 @@
 <script>
-	export let name;
+let Firstname = 'Brad';
+let Secondname = 'Yak';
+let color = 'blue'
+
+$: name  = Firstname + ' ' + Secondname
+
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<h1 style= 'color: {color}'>Hello {name}!</h1>
+	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a>
+		to learn how to build Svelte apps.</p>
 </main>
 
 <style>
